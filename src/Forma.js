@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Formik, Form, Field} from 'formik'
 import './App.css';
 
-
 export default class Forma extends Component {
   render() {
     return (
@@ -53,47 +52,46 @@ export default class Forma extends Component {
             <Field name='dateOut' type='date'></Field>
           </span>
         </fieldset>
-          <div>
-            <label>Adults</label>
-              <Field as='select' name='adults'>
-                  <option value='1'>one</option>
-                  <option value='2'>two</option>
-                  <option value='3'>three</option>
-                  <option value='4'>four</option>
-                  <option value='5 and more'>five and more</option>
-                </Field>
-              </div>
-              <div>
-                <label>Children</label>
-                <Field as='select' name='children'>
-                  <option value='0'>zero</option>
-                  <option value='1'>one</option>
-                  <option value='2'>two</option>
-                  <option value='3'>three</option>
-                  <option value='4'>four</option>
-                  <option value='5 and more'>five and more</option>
-                </Field>
-              </div>
-              <div>
-                  <label>Room</label>
-                  <Field name='room' type='number'></Field>
-              </div>
-              <div>
-                <label>Smoking room</label>
-                <Field type='radio' name='smoke' value='smoking'/> 
-              </div>
-              <div>
-                <label>Non-moking room</label>
-                <Field type='radio' name='smoke' value='non-smoking'/> 
-              </div>
-              <div>
-                <label>I guarantee prepayment</label>
-                <Field type="checkbox" name="prepayment" />
-              </div>
-              <button type="submit">Submit</button>
-            </Form>
-      </Formik>
-    );
-  }
+        <div>
+          <label>Adults</label>
+          <Field as='select' name='adults'>
+            <option value='1'>one</option>
+            <option value='2'>two</option>
+            <option value='3'>three</option>
+            <option value='4'>four</option>
+            <option value='5 and more'>five and more</option>
+          </Field>
+        </div>
+        <div>
+          <label>Children</label>
+          <Field as='select' name='children'>
+            <option value='0'>zero</option>
+            <option value='1'>one</option>
+            <option value='2'>two</option>
+            <option value='3'>three</option>
+            <option value='4'>four</option>
+            <option value='5 and more'>five and more</option>
+          </Field>
+        </div>
+        <div>
+          <label>Room</label>
+          <Field name='room' type='number'></Field>
+        </div>
+        <div>
+          <label>Smoking room</label>
+          <Field type='radio' name='smoke' value='smoking'/> 
+        </div>
+        <div>
+          <label>Non-moking room</label>
+          <Field type='radio' name='smoke' value='non-smoking'/> 
+        </div>
+        <div>
+          <label>I guarantee prepayment</label>
+          <Field type="checkbox" name="prepayment" />
+        </div>
+        <button type="submit">Submit</button>
+      </Form>
+    </Formik>
+  );
 }
-
+}
