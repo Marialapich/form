@@ -1,17 +1,43 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
 body {
-  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-div {
+input {
+  padding: 10px;
   margin: 5px;
-  bottom: 5px;
-}
-
-label {
-  min-height: 10px;
-  margin-right: 10px;
+  border: 0;
+  background-color: #00000008;
+  border-radius: 5px;
 }
 
 button {
-  margin-right: 15px;
+    margin: 10px;
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 255, 0.1);
+    border: #0026fd08;
+}
+
+label {
+  margin: 20px;
+}
+
+fieldset {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+p {
+  font-size: 15px;
+  color: red;
+  margin: 5px;
 }
