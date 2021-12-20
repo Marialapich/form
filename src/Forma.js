@@ -53,8 +53,7 @@ export default class Forma extends Component {
           .max(10)
           .required('Specify the number of rooms'),
           termsAndConditions: Yup.boolean().isTrue(
-            'You should accept our terms and conditions'
-          ),
+            'You should accept our terms and conditions'),
         })}
       >
 
