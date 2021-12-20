@@ -1,6 +1,6 @@
 {
   "name": "form",
-  "homepage": "https://github.com/Marialapich/form/", 
+  "homepage": "https://github.com/Marialapich/form/tree/main/src", 
   "version": "0.1.0",
   "private": true,
   "dependencies": {
