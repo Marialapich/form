@@ -59,25 +59,25 @@ export default class Forma extends Component {
       >
 
       <Form>
-            <Field name="userName" component={FormInput} label="Name"/>
-            <Field name="city" component={FormInput} label="City" />
-            <Field name="email" component={FormInput} label="Email" />
-            <Field name="tel" component={FormInput} label="Telefon"/>
-            <fieldset>
-              <legend>Data</legend>
-              <Field name="dateIn" component={FormInput}  type='date' label="Check-in"/>
-              <Field name="dateOut" component={FormInput} type='date' label="Check-out"/>
-            </fieldset>
-            <Field name="adults" component={FormInput} type='number' label="Adults"/>
-            <Field name="children" component={FormInput} type='number' label="Children"/>
-            <Field name="room" component={FormInput} type='number' label="Room"/>
-            <fieldset>
-              <legend>Non-smoking/smoking rooms</legend>
-              <Field name="smoke" component={FormRadio} value='non-smoking' id="non-smoking" label="Non-smoking room"/>
-              <Field name="smoke" component={FormRadio} value='smoking' id="smoking" label="Smoking room"/>
-            </fieldset>
-            <Field name="termsAndConditions" component={FormCheckbox} label="I Agree with Terms and Conditions"/>
-            <button type="submit">Submit</button>
+        <Field name="userName" component={FormInput} label="Name"/>
+        <Field name="city" component={FormInput} label="City" />
+        <Field name="email" component={FormInput} label="Email" />
+        <Field name="tel" component={FormInput} label="Telefon"/>
+        <fieldset>
+          <legend>Data</legend>
+          <Field name="dateIn" component={FormInput}  type='date' label="Check-in"/>
+          <Field name="dateOut" component={FormInput} type='date' label="Check-out"/>
+        </fieldset>
+        <Field name="adults" component={FormInput} type='number' label="Adults"/>
+        <Field name="children" component={FormInput} type='number' label="Children"/>
+        <Field name="room" component={FormInput} type='number' label="Room"/>
+        <fieldset>
+          <legend>Non-smoking/smoking rooms</legend>
+          <Field name="smoke" component={FormRadio} value='non-smoking' id="non-smoking" label="Non-smoking room"/>
+          <Field name="smoke" component={FormRadio} value='smoking' id="smoking" label="Smoking room"/>
+        </fieldset>
+        <Field name="termsAndConditions" component={FormCheckbox} label="I Agree with Terms and Conditions"/>
+        <button type="submit">Submit</button>
       </Form>
     </Formik>
   );
