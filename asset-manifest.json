@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Marialapich/form/static/css/main.943a382d.css",
+    "main.js": "/Marialapich/form/static/js/main.e657b729.js",
+    "static/js/787.afc2e617.chunk.js": "/Marialapich/form/static/js/787.afc2e617.chunk.js",
+    "index.html": "/Marialapich/form/index.html",
+    "main.943a382d.css.map": "/Marialapich/form/static/css/main.943a382d.css.map",
+    "main.e657b729.js.map": "/Marialapich/form/static/js/main.e657b729.js.map",
+    "787.afc2e617.chunk.js.map": "/Marialapich/form/static/js/787.afc2e617.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.943a382d.css",
+    "static/js/main.e657b729.js"
+  ]
+}
